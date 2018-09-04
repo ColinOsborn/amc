@@ -20,14 +20,14 @@ function aloha_config(){
     );
 
     $args = array(
-     'height' => 225,
+     'height' => 250,
      'width' => 1920
     );
     add_theme_support('custom-header', $args );
     add_theme_support('post-thumbnails');
     add_theme_support('post-formats', array('video', 'image') );
 }
-add_action('after_setup_theme', 'scandic_config', 0);
+add_action('after_setup_theme', 'aloha_config', 0);
 
 // Registering sidebars
 add_action('widgets_init', 'aloha_sidebars' );
