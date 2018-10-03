@@ -20,7 +20,7 @@ function aloha_config(){
     );
 
     $args = array(
-     'height' => 250,
+     'height' => 450,
      'width' => 1920
     );
     add_theme_support('custom-header', $args );
@@ -45,7 +45,7 @@ function aloha_sidebars(){
         );
     register_sidebar(
         array(
-            'name' => 'Blog Sidebar',
+            'name' => 'Trail Report Sidebar',
             'id' => 'sidebar-2',
             'description' => 'This is the Blog Sidebar. You can add your widets here.',
             'before_widget' => '<div class="widget-wrapper">',
@@ -86,5 +86,16 @@ function aloha_sidebars(){
             'before_title' => '<h2 class="widge-title">',
             'after_title' => '</h2>'
             )
-        );            
+        );
+        register_sidebar(
+        array(
+            'name' => 'Social Media Icons',
+            'id' => 'social-media',
+            'description' => 'Social Media Icons Widgets Area. Drag and drop your widgets here',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h2 class="widget-title">',
+            'after_title' => '</h2>'
+            )
+        );                        
 }
