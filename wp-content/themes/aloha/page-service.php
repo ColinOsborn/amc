@@ -16,37 +16,35 @@
       <div class="row">
         <div class="col-md-4 left">
           <h3>Tune Ups</h3>
-          <p>Mtb/Road Bike cable brakes</p>
-          <li>$75 Basic</li>
-          <li>$105 Pro</li>
-          <p>Mtb/Road Bike hydraulic brakes</p>
-          <li>$95 Basic</li>
-          <li>$130 Pro</li>
-          <p>Full Suspension MTB</p>
-          <li>$115 Basic</li>
-          <li>$150 Pro</li>
+          <p>Single Speed Coaster $40</p>
+          <p>Internally Geared Townie $55</p>
+          <p>Performance Single Speed MTB $90</p>
+          <p>Cable Brake MTB/Road Bike $100</p>
+          <p>Hydraulic MTB/Road Bike $125</p>
+          <p>Full Suspension Mountain Bike $150</p>
+          <p>Electronic Shifting Diagnostic $45</p>
+           <li>(Adjustments not included in diagnostic test)</li>
           <br>
-          <h3>Basic Adjustments</h3>
-          <p>Shifting $10-25</p>
-          <p>Brakes-cable $10-25</p>
-          <p>Bearings $10-$20</p>
-          <p>Heads - Hourly Rate</p>
+          <h3>Ala Carte (ooh la la) Services</h3>
+          <p>Freehub Body Service $35 - $65</p>
+          <p>Headset Adjustment $10 - $15</p>
+          <p>Botton Bracket Adjustment $10 - $15</p>
+          <p>Shift Adjustment $15 - $30</p>
+          <p>Cable Brake Adjustment $15 - $30</p>
+          <p>Hub Adjustment $10 - $15</p>
           <br>
-          <h3>Custom Builds</h3>
-          <p>Road Bike $200</p>
-          <p>Mountain Bike $250</p>
+          <h3>Overhaul Service</h3>
+          <p>Full Bicycle Overhaul $60/Hour (prorated)</p>
+          <p>Hub Overhaul $25 - $40</p>
+          <p>Headset Overhaul $25 - 40</p>
+          <p>Bottom Bracket Overhaul $25 - 40</p>
           <br>
-          <h3>Overhauls</h3>
-          <p>Bottom Brackets $30</p>
-          <p>Headsets $35</p>
-          <p>Hubs - Depends on Hub</p>
         </div>
         <div class="col-md-4 center">
           <h3>Wheelwork</h3>
-          <p>Flat Fix $5-$15</p>
-          <p>Truing $10-$25</p>
+          <p>Wheel Build $85</p>
+          <p>Wheel True/Tension $10 - $30 (Per Wheel)</p>
           <p>Spoke Replacement $25</p>
-          <p>Builds $85</p>
           <br>
           <h3>Fork Service</h3>
           <p>Fork Install $30</p>
@@ -62,13 +60,13 @@
         </div>
         <div class="col-md-4 right">
           <h3>Disc Brake Service</h3>
-          <p>Top bleed/pressurize $15-$25  + Hourly rates apply</p>
-          <p>Brake bleed and flush $25 + Hourly rates apply</p>
-          <p>Pad Install $10</p>
+          <p>Clean & Pressurize $20 - $40</p>
+          <p>Full Bleed $30 - $40</p>
+          <p>Master Cylinder Rebuild $60 'n Up</p>
           <br>
           <h3>Dropper Post Service</h3>
-          <p>Reverb Bleed $15</p>
-          <p>Reverb complete service $150</p>
+          <p>KS Dropper Posts $45 - $60</p>
+          <p>Reverb Dropper Service:</p>
           <p>Basic Reverb Service TBD</p>
           <p>KS Lev - Hourly rates apply + parts</p>
           <br>

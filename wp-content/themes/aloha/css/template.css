@@ -5,13 +5,17 @@
 body{ background: black; font: 16px/1.6 'Oswald', sans-serif;  }
 body p{ color: #ffffff; font: 16px/1.6 'Lato', sans-serif; }
 h1{ color: #72b4ac; font-size: 28px; margin: 15px 0 15px; }
-h2{ color: #72b4ac; font-size: 24px; margin-top: 0; }
+h2{ color: #ffffff; font-size: 24px; margin-top: 0; }
 h3{ color: #72b4ac; font-size: 20px; margin-top: 0; }
 h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 
 
 /* Top Bar Section */
 .top-bar{ background: #72b4ac; color: #fff; padding: 15px 0; }
+
+/* Social Widgets */
+.social-media-icons ul{ padding: 0; margin: 0; }
+.social-media-icons ul li{ list-style-type: none; display: inline; margin: 0 5px 0; }
 
 /* Header - Main Menu */
 .menu-area{ background:#9A9DA0; padding: 15px 0; }

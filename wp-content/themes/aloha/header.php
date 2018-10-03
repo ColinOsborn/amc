@@ -11,7 +11,13 @@
         <section class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="social-media-icons col-xl-10 col-md-8 col-sm-8 col-6">Social Icons</div>
+                    <div class="social-media-icons col-xl-10 col-md-8 col-sm-8 col-6">
+                    <?php
+                        if(is_active_sidebar('social-media')){
+                            dynamic_sidebar('social-media');
+                        }
+                        ?>
+                    </div>
                     <div class="search col-xl-12 col-md-12 col-sm-12 col-8 text-right">Open MON-FRI 10am - 7pm | SAT 9am - 5pm | SUN 10AM - 5PM | 970-963-2500</div>
                 </div>
             </div>

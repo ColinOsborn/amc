@@ -58,13 +58,15 @@
 .team-container .layer-content{}
 
 .team-container .layer-content .team-title {
+  text-align: center !important;
   font-size: 18px;
   font-weight: bold;
-  padding: 0 10px 10px;
+  /* padding: 0 10px 10px; */
 }
 
 .team-container .layer-content .team-position{
-	padding: 0 10px 10px;
+    padding: 0 10px 10px;
+    text-align: center !important;
 	}
 .team-container .layer-content .team-content{
 	padding: 0 10px 10px;
