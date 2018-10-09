@@ -34,8 +34,8 @@ function aloha_config(){
     add_theme_support('post-thumbnails');
     add_theme_support('post-formats', array('video', 'image') );
     add_theme_support('custom-logo', array(
-        'height' => 300,
-        'width' => 400
+        'height' => 210,
+        'width' => 300
     ) );
 }
 add_action('after_setup_theme', 'aloha_config', 0);
