@@ -76,4 +76,3 @@ Template Name: Bike Template
     </main>
     </div>
 
-<?php get_footer(); ?>
