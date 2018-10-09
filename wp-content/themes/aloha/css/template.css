@@ -15,7 +15,7 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 
 /* Social Widgets */
 .social-media-icons ul{ padding: 0; margin: 0; }
-.social-media-icons ul li{ list-style-type: none; display: inline; margin: 0 5px 0; }
+.social-media-icons ul li{ list-style-type: none; display: inline; margin: 0 5px 0; border-radius: 5px; }
 
 /* Header - Main Menu */
 .menu-area{ background:#9A9DA0; padding: 15px 0; }

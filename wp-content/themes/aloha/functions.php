@@ -20,12 +20,23 @@ function aloha_config(){
     );
 
     $args = array(
-     'height' => 450,
+     'height' => 300,
      'width' => 1920
     );
+
+    $hpsize = array(
+     'height' => 600,
+     'width' => 1920
+    );
+
     add_theme_support('custom-header', $args );
+    add_theme_support('homepage-header', $hpsize );
     add_theme_support('post-thumbnails');
     add_theme_support('post-formats', array('video', 'image') );
+    add_theme_support('custom-logo', array(
+        'height' => 300,
+        'width' => 400
+    ) );
 }
 add_action('after_setup_theme', 'aloha_config', 0);
 
