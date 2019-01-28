@@ -19,13 +19,14 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 .social-media-icons ul li:hover { background-color: #72b4ac; }
 
 /* Header - Main Menu */
-.menu-area{ background:#9A9DA0; padding: 15px 0; }
+.menu-area{ background:#9A9DA0; padding: 0px 0; }
 .main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }
 .main-menu ul li:hover{ color: #72b4ac; }
 .main-menu ul li{ display: inline;  margin: 0 30px 0 0;}
 .main-menu ul li:last-child{ margin: 0; }
 .main-menu ul li a{ text-transform: uppercase; color: #ffffff; text-decoration: none;}
 .main-menu ul li.current-menu-item a{ color:#72b4ac; }
+#menu-top-menu { position: relative; top: -128px; }
 
 /* Slider */
 .slide{ padding: 25px 0; }
@@ -40,7 +41,7 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 .services .widget-wrapper > img{ border: 15px solid #FFF; }
 
 /* Middle Area */
-.middle-area{ padding: 25px 0; }
+.middle-area{ background: #9A9DA0; padding-top: 12px; margin-bottom: -29px; }
 .middle-area h1{ color: #72b4ac; text-transform: uppercase;  }
 
 /* Middle Area - Sidebar */
@@ -107,3 +108,6 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
     float: left;
     width: 33.33%;
 }
+
+/* Homepage logo */
+.img.custom-logo { position: relative; left: -110px;}
