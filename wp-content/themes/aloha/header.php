@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <title>Aloha Mountain Cylcery</title>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -12,14 +12,14 @@
             <div class="container">
                 <div class="row">
                     <div class="social-media-icons col-xl-10 col-md-8 col-sm-8 col-6">
-                    <a href="https://www.carbondale.com/visit/things-to-do/" target="_blank"><img src="https://drncvpyikhjv3.cloudfront.net/sites/109/2016/08/31123954/logo.png" alt="Town of Carbondale" width='50' height='50'></a>
+                    <a href="https://www.carbondale.com/visit/things-to-do/" target="_blank"><img class="cc-icon" src="https://drncvpyikhjv3.cloudfront.net/sites/109/2016/08/31123954/logo.png" alt="Town of Carbondale" width='32' height='32'></a>
                     <?php
                         if(is_active_sidebar('social-media')){
                             dynamic_sidebar('social-media');
                         }
                         ?>
                     </div>
-                    <div class="search col-xl-12 col-md-12 col-sm-12 col-8 text-right">Open MON-FRI 10am - 7pm | SAT 9am - 5pm | SUN 10AM - 5PM | 970-963-2500</div>
+                    <div class="hours col-xl-12 col-md-12 col-sm-12 col-8 text-right">Open MON-FRI 10am - 7pm | SAT 9am - 5pm | SUN 10AM - 5PM | 970-963-2500</div>
                 </div>
             </div>
         </section>

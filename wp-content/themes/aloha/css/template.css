@@ -11,7 +11,10 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 
 
 /* Top Bar Section */
-.top-bar{ background: #72b4ac; color: #fff; padding: 15px 0; }
+.top-bar{ background: #72b4ac; color: #fff; padding: 0px 0; max-height: 80px; }
+img.cc-icon{ position: relative; right:35px; top:31px; }
+.hours{ bottom: 25px;}
+/* .hours{ } */
 
 /* Social Widgets */
 .social-media-icons ul{ padding: 0; margin: 0; }
@@ -19,7 +22,7 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 .social-media-icons ul li:hover { background-color: #72b4ac; }
 
 /* Header - Main Menu */
-.menu-area{ background:#9A9DA0; padding: 0px 0; }
+.menu-area{ background:#9A9DA0; padding: 0px 0; max-height: 200px }
 .main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }
 .main-menu ul li:hover{ color: #72b4ac; }
 .main-menu ul li{ display: inline;  margin: 0 30px 0 0;}
@@ -27,6 +30,9 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 .main-menu ul li a{ text-transform: uppercase; color: #ffffff; text-decoration: none;}
 .main-menu ul li.current-menu-item a{ color:#72b4ac; }
 #menu-top-menu { position: relative; top: -128px; }
+
+/* Homepage logo */
+img.custom-logo { position: relative; right: 80px; } 
 
 /* Slider */
 .slide{ padding: 25px 0; }
@@ -41,7 +47,7 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 .services .widget-wrapper > img{ border: 15px solid #FFF; }
 
 /* Middle Area */
-.middle-area{ background: #9A9DA0; padding-top: 12px; margin-bottom: -29px; }
+.middle-area{ background: #0a0a0a; padding: 15px 5px 55px; margin-bottom: -29px; }
 .middle-area h1{ color: #72b4ac; text-transform: uppercase;  }
 
 /* Middle Area - Sidebar */
@@ -68,13 +74,17 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .blog .meta-info p{ line-height: 1em; font-weight: bold; }
 .blog .meta-info p > a{ color: #9d9d9d; font-weight: normal; }
 
+/* Homepage Background Image */
+.page-id-24 .content-area body { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg');}
+.homepage-template p{ font-size: 1.2em; color: #72b4ac; font-weight: 300; }
+
 /* Service Page */
-.page-id-8 .content-area {
-  background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');
-}
+.page-id-8 .content-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');}
 .page-id-8 .left li { color: #fff}
 
 /* Bikes Page */
+.bike-brands { padding-top: 60px;}
+
 .bike-lines {
     display: -webkit-box;
     display: -moz-box;
@@ -109,5 +119,7 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
     width: 33.33%;
 }
 
-/* Homepage logo */
-.img.custom-logo { position: relative; left: -110px;}
+/* Staff Page */
+.page-id-12 h2 {color: #72b4ac; font-size: 30px; text-transform: uppercase; font-weight: bold; text-align: center; padding-bottom: 25px;}
+.tmm .tmm_names {color: #72b4ac; font-size: 20px; margin-top: 0; font-weight: bold;}
+.tmm_desc p{ color: black}

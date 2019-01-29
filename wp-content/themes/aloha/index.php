@@ -10,13 +10,22 @@
                 <div class="news col-md-9">
                     <?php 
                     // If there are any posts    
-                     if( have_posts() ):
+                     if(have_posts()):
                         // if they exist, display em 
-                        while( have_posts() ): the_post();   
-                    
-                    get_template_part( 'template-parts/content', get_post_format() ); 
-                    
+                    while(have_posts()): the_post();   
+                    get_template_part('template-parts/content', get_post_format()); 
                     endwhile;
+                    ?>
+
+                    <div class="row">
+                        <div class="pages col-md-6 text-left">
+                            <?php previous_posts_link("<< Newer Posts"); ?>
+                        </div>
+                        <div class="pages col-md-6 text-right">
+                            <?php next_posts_link("Older Posts >>"); ?>
+                        </div>
+                    </div>
+                    <?php
                     else:
                     ?>
                     <p>There's nothing yet to be displayed!</p>

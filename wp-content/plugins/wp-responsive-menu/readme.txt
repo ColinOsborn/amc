@@ -1,11 +1,10 @@
 === WP Responsive Menu ===
 Contributors: sagarseth9,magnigenie,kshirod-patel
-Tags: WordPress Responsive Menu, Genesis responsive menu, Genesis Mobile Menu, Thesis Mobile Menu, Thesis Responsive Menu,  Mobile Menu, Responsive Menu Plugin, WP Responsive Menu, WordPress mobile menu
+Tags: WordPress Responsive Menu, Genesis responsive menu, Genesis Mobile Menu, Thesis Mobile Menu, Thesis Responsive Menu,  Mobile Menu, Responsive Menu Plugin, WP Responsive Menu, WordPress mobile menu, WP Mobile Menu,
 Requires at least: 3.0
 Requires PHP: 5.4
-Tested up to: 4.9.8
-Stable tag: 3.0.4
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sagar.seth9@gmail.com&item_name=WP%20Responsive%20Menu&return=http://magnigenie.com
+Tested up to: 5.0.3
+Stable tag: 3.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,24 +26,28 @@ WP Responsive Menu is a simple plugin that lets you add a highly customizable re
 * Provides better option to open/close menu with simple swipe gestures.
 * Easily configure font sizes and styles from the settings.
 * Gives you flexibility to add a search box inside menu.
+* Gives you ability to import predefined demos in your site just by doing a single click.
+* Developer friendly hooks
 * Option to display the search option on menu bar(PRO).
 * Integrates flawlessly with WooCommerce(PRO).
 * Better support for RTL sites(PRO).
 * Allows to add social media icons to menu(PRO).
 * You can easily change the menu fonts with any custom/google fonts(PRO).
 * Change the sub menu and menu icons easily(PRO).
+* Widget Menu Support(PRO).
 * And much more coming soon...
 
 This plugin works out of box with any theme frameworks like genesis or thesis or any theme and it also works fine with multisite setups.
 
-= Important Notes =
+== Wp Responsive Menu Demo ==
+Check [WP Responsive Menu Demo](http://demo.magnigenie.com/wp-responsive-menu-pro/menu-demo/) for both free and pro demo  
+
+== Important Notes ==
 [Upgrade to PRO](http://magnigenie.com/wp-responsive-menu-pro/)  to avail better support and unrestricted access to WP Responsive Menu.
 
-For Quick support please check our [support forum](http://magnigenie.com/support/queries/wp-responsive-menu/) for WP Responsive Menu.
+[Menu Icons by ThemeIsle](https://wordpress.org/plugins/menu-icons/) Plugin has been used in our demo for the icons. If you want to show the icons in the menu you need to install that plugin.
 
-If you have any  suggestions for a new plugin, feel free to email us at info@magnigenie.com.
-
-[Click here](http://magnigenie.com/wp-responsive-menu-mobile-menu-plugin-wordpress/) to check the demo for free and pro version.
+If you have any suggestions for a new plugin, feel free to email us at info@magnigenie.com.
 
 == Installation ==
 1. Go to your admin area and select Plugins -> Add new from the menu.
@@ -53,20 +56,66 @@ If you have any  suggestions for a new plugin, feel free to email us at info@mag
 4. Click activate.
 5. Once the plugin is installed then you can see WPR Menu on the left navigation bar of WordPress Dashboard.
 
+== Frequently Asked Questions ==
+
+= How to show icons in the menu just like your demo? =
+You need to use [Menu Icons by ThemeIsle](https://wordpress.org/plugins/menu-icons/)
+and add icons to the menu.
+
+= I have an issue. Where should I contact you? =
+You need to contact us at support@magnigenie.com with your issue as much as in details. Like which version of wordpress and which version of our plugin you are using. You can send us screenshots for those issues.
+
+= I have a plugin suggestion. Can you do that? =
+Yes of course. We are always ready to convert your ideas into a plugin. Contact us at info@magnigenie.com so that we can discuss further.
+
+
 == Screenshots ==
 
 1. General settings.
 
 2. Appearance settings.
 
-3. Icons settings.
+3. Widget Menu settings.
 
-4. Frontend large screen view.
+4. Colors settings.
 
-5. Frontend PRO version view. Check out [the demo](http://magnigenie.com/wp-responsive-menu-mobile-menu-plugin-wordpress/)
+5. Fonts settings.
+
+6. Icons settings.
+
+7. Social settings.
+
+8. Demo import settings.
+
+9. Live Preview 
+
+10. Predefined demo
+
+11. Frontend screen view
+
+12. Frontend menu screen view
+
 
 == ChangeLog ==
 
+= Version 3.1.2 =
+
+* Changed hooks 
+* Fixed issue for menu on iPhone device
+
+= Version 3.1.1 =
+
+* Fixed issue for constant
+
+= Version 3.1 =
+
+* Added developer hooks for before menu element and after menu element
+* Added custom css editor
+* Added WYSIWYG editor for before menu content and after menu content
+* Option added for menu bar height
+* Fixed option issue for push menu
+* Code optimized
+* Css optimized
 
 = Version 3.0.4 =
 
@@ -164,6 +213,6 @@ If you have any  suggestions for a new plugin, feel free to email us at info@mag
 
 == Upgrade Notice ==
 
-= Version 3.0.2 =
+= Version 3.1 =
 
 * New update is available.
