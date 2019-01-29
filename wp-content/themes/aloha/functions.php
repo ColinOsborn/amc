@@ -34,8 +34,8 @@ function aloha_config(){
     add_theme_support('post-thumbnails');
     add_theme_support('post-formats', array('video', 'image') );
     add_theme_support('custom-logo', array(
-        'height' => 210,
-        'width' => 300
+        'height' => 220,
+        'width' => 310
     ) );
 }
 add_action('after_setup_theme', 'aloha_config', 0);
@@ -67,9 +67,9 @@ function aloha_sidebars(){
         );
     register_sidebar(
         array(
-            'name' => 'Service 1',
+            'name' => 'Special Events Sidebar',
             'id' => 'services-1',
-            'description' => 'First Services Area.',
+            'description' => 'Special Events Sidebar Area.',
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h2 class="widge-title">',

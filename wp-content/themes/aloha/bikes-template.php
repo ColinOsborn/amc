@@ -68,6 +68,12 @@ Template Name: Bike Template
                             </div>
                         </div>
                     </div>
+                    <div class="container-middle">
+                        <div class="one-of-three">
+                            <div class="bikes-lines"><a href="https://www.cervelo.com/" target="_blank"><img src="http://localhost:8888/aloha/wp-content/uploads/2018/10/Cervelo-Logo.png"></a></div>                                
+                                <p>Salsa Baby! Who does'nt like salsa? Offering everything from full-on downhill bikes to enduro-style bikes to road bikes, Devinci is at the forefront of the ever-growing carbon bike explosion. Ride one. You’ll want one.</p>
+                            </div>   
+                    </div>
                 </div>
             </div>
         </div>

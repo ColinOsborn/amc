@@ -12,6 +12,7 @@
             <div class="container">
                 <div class="row">
                     <div class="social-media-icons col-xl-10 col-md-8 col-sm-8 col-6">
+                    <a href="https://www.carbondale.com/visit/things-to-do/" target="_blank"><img src="https://drncvpyikhjv3.cloudfront.net/sites/109/2016/08/31123954/logo.png" alt="Town of Carbondale" width='50' height='50'></a>
                     <?php
                         if(is_active_sidebar('social-media')){
                             dynamic_sidebar('social-media');
@@ -26,8 +27,8 @@
             <div class="container">
                <div class="align">
                 <div class="row">
-                    <section class="logo col-md-2 col-sm-12 col-12 text-center"><?php the_custom_logo(); ?></section>
-                    <nav class="main-menu col-md-10 text-right">
+                    <section class="logo col-md-2 col-sm-10 col-10 text-center"><?php the_custom_logo(); ?></section>
+                    <nav class="main-menu col-md-12 text-right">
                     <?php wp_nav_menu( array('theme_location' => 'my_main_menu' ) ); ?>
                     </nav>
                 </div>

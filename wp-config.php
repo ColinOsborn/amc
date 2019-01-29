@@ -20,6 +20,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', '/Applications/MAMP/htdocs/aloha/wp-content/plugins/wp-super-cache/' );
 define('DB_NAME', 'aloha');
 
 /** MySQL database username */
@@ -87,3 +89,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
