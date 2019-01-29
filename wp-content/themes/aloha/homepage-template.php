@@ -2,8 +2,7 @@
 /*
 Template Name: Homepage Template
  */
-
- ?>
+?>
 
  <?php get_header(); ?>
 
@@ -11,8 +10,6 @@ Template Name: Homepage Template
     <main>
     <section class="middle-area">
         <div class="container">
-        
-                
                 <div class="homepage-template">
                     <?php 
                     // If there are any posts    
@@ -29,7 +26,6 @@ Template Name: Homepage Template
                     else:
                     ?>
                     <p>There's nothing yet to be displayed</p>
-
                     <?php endif; ?>
             </div>
         </div>

@@ -75,14 +75,11 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .blog .meta-info p > a{ color: #9d9d9d; font-weight: normal; }
 
 /* Homepage Background Image */
-.page-id-24 .content-area {
-  background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg');
-}
+.page-id-24 .content-area body { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg');}
+.homepage-template p{ font-size: 1.2em; color: #72b4ac; font-weight: 300; }
 
 /* Service Page */
-.page-id-8 .content-area {
-  background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');
-}
+.page-id-8 .content-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');}
 .page-id-8 .left li { color: #fff}
 
 /* Bikes Page */
@@ -121,3 +118,8 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
     float: left;
     width: 33.33%;
 }
+
+/* Staff Page */
+.page-id-12 h2 {color: #72b4ac; font-size: 30px; text-transform: uppercase; font-weight: bold; text-align: center; padding-bottom: 25px;}
+.tmm .tmm_names {color: #72b4ac; font-size: 20px; margin-top: 0; font-weight: bold;}
+.tmm_desc p{ color: black}
