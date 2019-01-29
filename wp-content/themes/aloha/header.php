@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Aloha Mountain Cylcery</title>
+    <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
