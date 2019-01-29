@@ -31,6 +31,15 @@
   font-weight: 400;
 }
 
+html body.wprmenu-body-fixed {
+  position: fixed !important;
+}
+
+html body div.wprm-wrapper {
+  z-index: 999999;
+  width: 100%;
+}
+
 #wprmenu_bar img {
   border: 0;
   border: none;
@@ -424,6 +433,10 @@ body.admin-bar .cbp-spmenu-bottom.custom.cbp-spmenu-open,body.admin-bar .cbp-spm
   .admin-bar .cbp-spmenu-top.cbp-spmenu-open, .admin-bar .cbp-spmenu-bottom.cbp-spmenu-open {
     top: 88px!important;
   }
+
+  #wpr_iframe .admin-bar #mg-wprm-wrap.cbp-spmenu-left, #wpr_iframe .admin-bar #mg-wprm-wrap.cbp-spmenu-right {
+    top: 42px !important;
+  }
 }
 
 .cbp-spmenu-left {
@@ -489,4 +502,12 @@ body.admin-bar .cbp-spmenu-bottom.custom.cbp-spmenu-open,body.admin-bar .cbp-spm
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
+}
+html body .wprm-overlay.active {
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    position: fixed;
 }

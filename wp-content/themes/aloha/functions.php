@@ -20,7 +20,7 @@ function aloha_config(){
     );
 
     $args = array(
-     'height' => 300,
+     'height' => 350,
      'width' => 1920
     );
 

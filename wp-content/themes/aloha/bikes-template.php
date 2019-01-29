@@ -13,7 +13,6 @@ Template Name: Bike Template
     <main>
     <section class="middle-area">
         <div class="container">
-        
                 
                 <div class="general-template">
                     <?php 
@@ -23,7 +22,6 @@ Template Name: Bike Template
                         while( have_posts() ): the_post();   
                     ?>
                     <article>
-                        <h2><?php the_title(); ?></h2>
                         <p><?php the_content(); ?></p>
                     </article>
 
@@ -35,7 +33,11 @@ Template Name: Bike Template
 
                     <?php endif; ?>
             </div>
-            <div class="bike-brands">
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="bike-brands">
                 <div class="container">
                     <div class="container-top">
                         <div class="one-of-three">
@@ -68,16 +70,8 @@ Template Name: Bike Template
                             </div>
                         </div>
                     </div>
-                    <div class="container-middle">
-                        <div class="one-of-three">
-                            <div class="bikes-lines"><a href="https://www.cervelo.com/" target="_blank"><img src="http://localhost:8888/aloha/wp-content/uploads/2018/10/Cervelo-Logo.png"></a></div>                                
-                                <p>Salsa Baby! Who does'nt like salsa? Offering everything from full-on downhill bikes to enduro-style bikes to road bikes, Devinci is at the forefront of the ever-growing carbon bike explosion. Ride one. You’ll want one.</p>
-                            </div>   
-                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
     </main>
     </div>
