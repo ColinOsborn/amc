@@ -82,6 +82,16 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .page-id-8 .content-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');}
 .page-id-8 .left li { color: #fff}
 
+/* Demo Page */
+.page-id-179 .middle-area {
+    background: black;
+    padding-top: 12px;
+    margin-bottom: -29px;
+}
+.page-id-179 h1 {text-align: center }
+.page-id-179 h3 {text-align: center }
+.page-id-179 p {text-align: center }
+
 /* Bikes Page */
 .bike-brands { padding-top: 60px;}
 
@@ -123,3 +133,19 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .page-id-12 h2 {color: #72b4ac; font-size: 30px; text-transform: uppercase; font-weight: bold; text-align: center; padding-bottom: 25px;}
 .tmm .tmm_names {color: #72b4ac; font-size: 20px; margin-top: 0; font-weight: bold;}
 .tmm_desc p{ color: black}
+
+
+/* Fit Page */
+/* Three image containers (use 33.33% for 3, use 25% for four, and 50% for two, etc) */
+.fit-column {
+  flex: 33%;
+  padding: 5px;
+}
+
+.fit-row {
+  display: flex;
+}
+
+.contact-img {
+    float: right;
+}

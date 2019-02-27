@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html.wprmenu-body-fixed { overflow: inherit; }
+
+html.wprmenu-body-fixed body {  position: fixed !important; }
+
 #mg-wprm-wrap [class*=" icon-"],#mg-wprm-wrap [class^=icon-] {
   font-family: wprmenu!important;
   speak: none;
@@ -31,9 +35,6 @@
   font-weight: 400;
 }
 
-html body.wprmenu-body-fixed {
-  position: fixed !important;
-}
 
 html body div.wprm-wrapper {
   z-index: 999999;

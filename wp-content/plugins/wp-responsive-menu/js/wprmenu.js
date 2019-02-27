@@ -73,14 +73,14 @@ jQuery( document ).ready( function( $ ) {
 		$(this).find('div.hamburger').toggleClass('is-active');
 
 		if( $(this).hasClass('active') ) {
-			$('body').addClass('wprmenu-body-fixed');
+			$('html').addClass('wprmenu-body-fixed');
 			if( wprmenu.enable_overlay == '1' ) {
 				$('div.wprm-wrapper').find('.wprm-overlay').addClass('active');
 			}
 			
 		}
 		else {
-			$('body').removeClass('wprmenu-body-fixed');
+			$('html').removeClass('wprmenu-body-fixed');
 			if( wprmenu.enable_overlay == '1' ) {
 				$('div.wprm-wrapper').find('.wprm-overlay').removeClass('active');
 			}

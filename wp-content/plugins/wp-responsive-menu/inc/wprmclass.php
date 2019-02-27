@@ -455,7 +455,7 @@ class WP_Responsive_Menu {
 				*
 				* After Menu Header Hook
 				*
-				* @since 3.1.2
+				* @since 3.1
 				*/
 				do_action('wpr_after_menu_bar'); 
 				?>
@@ -521,7 +521,7 @@ class WP_Responsive_Menu {
 				*
 				* After Menu Container Hook
 				*
-				* @since 3.1.2
+				* @since 3.1
 				*/
 				do_action('wpr_after_menu_container'); 
 				?>

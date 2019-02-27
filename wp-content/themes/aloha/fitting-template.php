@@ -37,13 +37,21 @@ Template Name: Bike Fit Template
         </div>
     </section>
     <div class="container">
-        <div class="row">
-            <div class="column">
-
+            <div class="fit-row">
+                <div class="fit-column">
+                    <img src="http://localhost:8888/aloha/wp-content/uploads/2018/09/plthumb_step1.jpg" alt="Fit1">
+                </div>
+                <div class="fit-column">
+                    <img src="http://localhost:8888/aloha/wp-content/uploads/2018/09/plthumb_step4.jpg" alt="Fit2">
+                </div>
+                <div class="fit-column">
+                    <img src="http://localhost:8888/aloha/wp-content/uploads/2018/09/plthumb_step3.jpg" alt="Fit3">
+                </div>
+                </div>
             </div>
-        </div>
     </div>
 
     </main>
     </div>
 
+    <?php get_footer(); ?>
