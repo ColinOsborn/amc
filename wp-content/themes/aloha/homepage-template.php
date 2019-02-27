@@ -18,7 +18,9 @@ Template Name: Homepage Template
                         while( have_posts() ): the_post();   
                         ?>
                     <article>
-                        <p><?php the_content(); ?></p>
+                        <body>
+                            <p><?php the_content(); ?></p>
+                        </body>
                     </article>
 
                     <?php

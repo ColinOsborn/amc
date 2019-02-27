@@ -75,8 +75,8 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .blog .meta-info p > a{ color: #9d9d9d; font-weight: normal; }
 
 /* Homepage Background Image */
-.page-id-24 .content-area body { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg');}
-.homepage-template p{ font-size: 1.2em; color: #72b4ac; font-weight: 300; }
+.page-id-24 .content-area .middle-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg'); background-size: cover;}
+.homepage-template p{ font-size: 1.2em; color: #72b4ac; font-weight: 400; }
 
 /* Service Page */
 .page-id-8 .content-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');}
@@ -93,6 +93,8 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .page-id-179 p {text-align: center }
 
 /* Bikes Page */
+.page-id-6 .content-area .middle-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2019/02/IMG_5599-1.jpg'); background-size: cover;}
+
 .bike-brands { padding-top: 60px;}
 
 .bike-lines {
