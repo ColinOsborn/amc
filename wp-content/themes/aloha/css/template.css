@@ -145,3 +145,7 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .fit-row {
   display: flex;
 }
+
+.contact-img {
+    float: right;
+}
