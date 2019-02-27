@@ -82,6 +82,16 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .page-id-8 .content-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');}
 .page-id-8 .left li { color: #fff}
 
+/* Demo Page */
+.page-id-179 .middle-area {
+    background: black;
+    padding-top: 12px;
+    margin-bottom: -29px;
+}
+.page-id-179 h1 {text-align: center }
+.page-id-179 h3 {text-align: center }
+.page-id-179 p {text-align: center }
+
 /* Bikes Page */
 .bike-brands { padding-top: 60px;}
 
