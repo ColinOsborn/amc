@@ -13,10 +13,10 @@ Template Name: Homepage Template
                 <div class="homepage-template">
                     <?php 
                     // If there are any posts    
-                     if( have_posts() ):
+                    if( have_posts() ):
                         // if they exist, display em 
                         while( have_posts() ): the_post();   
-                    ?>
+                        ?>
                     <article>
                         <p><?php the_content(); ?></p>
                     </article>
