@@ -11,9 +11,21 @@ h4{ color: #72b4ac; font-size: 18px; margin-top: 0; }
 
 
 /* Top Bar Section */
-.top-bar{ background: #72b4ac; color: #fff; padding: 0px 0; max-height: 80px; }
-img.cc-icon{ position: relative; right:35px; top:31px; }
-.hours{ bottom: 25px;}
+.top-bar { 
+    background: #72b4ac;
+    color: #fff; 
+    padding: 0px 0;
+    max-height: 80px;
+}
+
+img.cc-icon { position: relative;
+    right:35px;
+    top:31px;
+}
+
+.hours { 
+    bottom: 25px;
+}
 /* .hours{ } */
 
 /* Social Widgets */
@@ -38,7 +50,12 @@ img.custom-logo { position: relative; right: 80px; }
 .slide{ padding: 25px 0; }
 
 /* Services */
-.services{ background: #4c1b1b; padding: 25px 0; color: #72b4ac; border-radius: 5px; }
+.services{ 
+    background: #4c1b1b;
+    padding: 25px 0;
+    color: #72b4ac;
+    border-radius: 5px;
+}
 .services h1{ text-align: center; color: #0a0a0a; text-transform: uppercase; font-size: 28px; }
 .services .widget-wrapper{ text-align: center; }
 .services .widget-wrapper h2{ text-transform: uppercase; font-size: 1.2em; color: #0c0c0c; font-weight: 200; }
@@ -64,23 +81,66 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .footer-menu ul  li.current-menu-item a{ color:#72b4ac; }
 
 /* Blog */
-.wp-post-image{ float: left; margin: 0 15px 10px 0; }
-.format-image h2 { color: #fff; background: #717171; padding: 15px; }
-.format-video h2 { color: #fff; background: #211e1e; padding: 15px; }
-.format-standard h2 { color: #72b4ac; background: #d2d2d2; padding: 15px; }
-.blog article{ display: inline-block; margin: 0 0 30px; width: 100%; }
-.blog article h2{ margin-bottom: 15px; }
-.blog article p > img{ width: 100%; height: auto; }
-.blog .meta-info p{ line-height: 1em; font-weight: bold; }
-.blog .meta-info p > a{ color: #9d9d9d; font-weight: normal; }
+.wp-post-image{ 
+    float: left; 
+    margin: 0 15px 10px 0;
+}
+.format-image h2 { 
+    color: #fff;
+    background: #717171;
+    padding: 15px;
+}
+.format-video h2 { 
+    color: #fff;
+    background: #211e1e;
+    padding: 15px; 
+}
+.format-standard h2 { 
+    color: #72b4ac;
+    background: #d2d2d2; 
+    padding: 15px;
+}
+.blog article { 
+    display: inline-block;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.blog article h2 { 
+    margin-bottom: 15px;
+}
+.blog article p > img {
+    width: 100%; 
+    height: auto; 
+}
+.blog .meta-info p { 
+    line-height: 1em;
+    font-weight: bold;
+}
+.blog .meta-info p > a{ 
+    color: #9d9d9d;
+    font-weight: normal;
+}
 
-/* Homepage Background Image */
-.page-id-24 .content-area .middle-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg'); background-size: cover;}
-.homepage-template p{ font-size: 1.2em; color: #72b4ac; font-weight: 400; }
+/* Homepage styles ~ Background Image */
+.page-id-24 .content-area .middle-area { 
+    background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/sopris.jpg');
+    background-size: cover;
+    min-height: 800px; 
+}
+.homepage-template p { 
+    font-size: 1.2em; 
+    color: #72b4ac; 
+    font-weight: 400; 
+    padding-top: 20px;
+}
 
 /* Service Page */
-.page-id-8 .content-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');}
-.page-id-8 .left li { color: #fff}
+.page-id-8 .content-area { 
+    background-image: url('http://localhost:8888/aloha/wp-content/uploads/2018/10/service-page-background.jpg');
+}
+.page-id-8 .left li { 
+    color: #fff;
+}
 
 /* Demo Page */
 .page-id-179 .middle-area {
@@ -88,14 +148,33 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
     padding-top: 12px;
     margin-bottom: -29px;
 }
-.page-id-179 h1 {text-align: center }
-.page-id-179 h3 {text-align: center }
-.page-id-179 p {text-align: center }
+
+.page-id-179 .img {
+    align-content: center;
+    text-align: center;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.page-id-179 h1 {
+    text-align: center;
+}
+.page-id-179 h3 { 
+    text-align: center; 
+}
+.page-id-179 p {
+    text-align: center;
+}
 
 /* Bikes Page */
-.page-id-6 .content-area .middle-area { background-image: url('http://localhost:8888/aloha/wp-content/uploads/2019/02/IMG_5599-1.jpg'); background-size: cover;}
+.page-id-6 .content-area .middle-area { 
+    background-image: url('http://localhost:8888/aloha/wp-content/uploads/2019/02/IMG_5599-1.jpg');
+    background-size: cover;
+}
 
-.bike-brands { padding-top: 60px;}
+.bike-brands { 
+    padding-top: 60px;
+}
 
 .bike-lines {
     display: -webkit-box;
@@ -132,9 +211,23 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 }
 
 /* Staff Page */
-.page-id-12 h2 {color: #72b4ac; font-size: 30px; text-transform: uppercase; font-weight: bold; text-align: center; padding-bottom: 25px;}
-.tmm .tmm_names {color: #72b4ac; font-size: 20px; margin-top: 0; font-weight: bold;}
-.tmm_desc p{ color: black}
+.page-id-12 h2 {
+    color: #72b4ac;
+    font-size: 30px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    text-align: center; 
+    padding-bottom: 25px;
+}
+.tmm .tmm_names {
+    color: #72b4ac; 
+    font-size: 20px; 
+    margin-top: 0; 
+    font-weight: bold;
+}    
+.tmm_desc p { 
+    color: black;
+}
 
 
 /* Fit Page */
@@ -148,6 +241,10 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
   display: flex;
 }
 
+/* Contact Page */
+
 .contact-img {
     float: right;
+    position: relative;
+    bottom: 20px;
 }
