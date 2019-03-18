@@ -23,7 +23,7 @@ Template Name: Bike Template
                         while( have_posts() ): the_post();   
                     ?>
                     <article>
-                        <p><?php the_content(); ?></p>
+                        <p class="revert"><?php the_content(); ?></p>
                     </article>
 
                     <?php
@@ -71,18 +71,18 @@ Template Name: Bike Template
                 <div class="bike-lines"><a href="http://www.salsacycles.com/" target="_blank"><img 
                             src="http://localhost:8888/aloha/wp-content/uploads/2018/10/salsa-logo-red-150.png"></a>
                 </div>
-                <p>Salsa is adventure by bike.<  This is the company that has helped create fat bike racing, bikepacking, and gravel racing.  If you want a bike for your next cycling adventure, look no further than Salsa.</p>
+                <p>Salsa is adventure by bike. This is the company that has helped create fat bike racing, bikepacking, and gravel racing. If you want a bike for your next cycling adventure, look no further than Salsa.</p>
             </div>
             <div class="two-of-three">
                 <div class="bike-lines"><a href="https://surlybikes.com/" target="_blank"><img class="surly-img"
                             src="http://localhost:8888/aloha/wp-content/uploads/2019/03/surly-images.png"></a>
                 </div>
-                <p>Surly is functional steel with soul.  This Minnesota company has been on the forefront of bicycle design, but have always stayed true to their steel roots.  From fat bikes to gravel grinders, fixies to hardtails, Surly has got a bike for every rider.</p>
+                <p>Surly is functional steel with soul. This Minnesota company has been on the forefront of bicycle design, but have always stayed true to their steel roots.</p>
             </div>
             <div class="three-of-three">
                 <div class="bike-lines"><a href="https://www.whycycles.com/" target="_blank"><img class="why-img"
                             src="http://localhost:8888/aloha/wp-content/uploads/2019/03/why-cycles-logo-1.png"></a></div>
-                <p>Why Cycles is a small bike company located right here in Carbondale that specializes in beautiful titanium bikes with progressive geometry that makes them ride as good as they look.</p>
+                <p>Why Cycles is a small bike company located right here in Carbondale that specializes in beautiful ti bikes with progressive geometry that makes them ride as good as they look.</p>
             </div>
         </div>
     </div>
@@ -100,7 +100,7 @@ Template Name: Bike Template
                 <div class="bike-lines"><a href="https://ninerbikes.com/" target="_blank"><img class="surly-img"
                             src="http://localhost:8888/aloha/wp-content/uploads/2019/03/niner-logo.png"></a>
                 </div>
-                    <p>Niner Bikes started the whole twenty nine inch wheel reveolution and now make everything from full suspension and hardtail mountain bikes to carbon anf steel gravel grinders.</p>
+                    <p>Niner Bikes started the whole twenty nine inch wheel revolution and now make everything from full suspension and hardtail mountain bikes to carbon & steel gravel grinders.</p>
             </div>
             <div class="three-of-three">
                 <div class="bike-lines"><a href="https://allcitycycles.com/" target="_blank"><img class="all-city-img"
