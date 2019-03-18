@@ -48,54 +48,66 @@ Template Name: Bike Template
                     <div class="bike-lines"><a href="http://www.bikes.com/" target="_blank"><img
                                 src="http://localhost:8888/aloha/wp-content/uploads/2018/10/RMB_Headbadge_white-150.png"></a>
                     </div>
-                    <p>Rocky Mountain is bike brand near and dear to our heart. Not only do they make rockin' bike, you
-                        can just give'r on em and they keep given'n on back. </p>
+                    <p>Rocky Mountain Bicycles is a Canadian company that helped define freeride mountain biking.  By staffing former spomsored pro riders, they insure that every bike they design has top level rider input and will help you have the ride of your life. </p>
                 </div>
                 <div class="two-of-three">
                     <div class="bike-lines"><a href="http://www.konaworld.com/" target="_blank"><img
                                 src="http://localhost:8888/aloha/wp-content/uploads/2018/10/kona_logo.png"></a></div>
                     <p>Our favorite all-around bike company, Kona makes a bike for any use or user. Mountain, road,
                         cross, commute, or kids… Every single Kona we throw a leg over fits great and feels ready to
-                        shred, right out of the box. Located in the Northwest and making bikes since 1988, Kona offers
-                        selection, durability, and bikes for any budget.</p>
+                        shred, right out of the box.</p>
                 </div>
                 <div class="three-of-three">
                     <div class="bike-lines"><a href="https://www.moots.com/" target="_blank"><img
                                 src="http://localhost:8888/aloha/wp-content/uploads/2018/10/moots-logo-white-150.png"></a>
                     </div>
-                    <p>Moots. They're made in Steamboat Springs out of sweet sweet Ti-Tanium. What else do we really
-                        need to say. Crack a beer folks. Kokanee you mother fuckers drink it up!! I'm putting space in
-                        here so shit looks right? eh?! </p>
+                    <p>Very few companies have the cycling heretige that Moots has.  Located just two hours away in beautiful Steamboat Springs, Moots designs, fabricates, and produces all of their bikes from top grade USA sourced titanium.  If you want a bicycle that will feel like you have been riding it for twenty years the first time you ever throw a leg over it, you want a Moots. </p>
                 </div>
             </div>
         </div>
         <br>
         <div class="container-middle">
             <div class="one-of-three">
-                <div class="bike-lines"><a href="http://www.salsacycles.com/" target="_blank"><img
+                <div class="bike-lines"><a href="http://www.salsacycles.com/" target="_blank"><img 
                             src="http://localhost:8888/aloha/wp-content/uploads/2018/10/salsa-logo-red-150.png"></a>
                 </div>
-                <p>Salsa Baby! Who does'nt like salsa? Offering everything from full-on downhill bikes to enduro-style
-                    bikes to road bikes, Devinci is at the forefront of the ever-growing carbon bike explosion. Ride
-                    one. You’ll want one.</p>
+                <p>Salsa is adventure by bike.<  This is the company that has helped create fat bike racing, bikepacking, and gravel racing.  If you want a bike for your next cycling adventure, look no further than Salsa.</p>
             </div>
             <div class="two-of-three">
-                <div class="bike-lines"><a href="https://surlybikes.com/" target="_blank"><img
-                            src="http://localhost:8888/aloha/wp-content/uploads/2018/10/surly-bikes-logo-150.png"></a>
+                <div class="bike-lines"><a href="https://surlybikes.com/" target="_blank"><img class="surly-img"
+                            src="http://localhost:8888/aloha/wp-content/uploads/2019/03/surly-images.png"></a>
                 </div>
-                <p>Surly! Whose surly?! I'm fucking Surly and you know you are too! Come ride this Pugsley. Feels like
-                    hard steel.</p>
+                <p>Surly is functional steel with soul.  This Minnesota company has been on the forefront of bicycle design, but have always stayed true to their steel roots.  From fat bikes to gravel grinders, fixies to hardtails, Surly has got a bike for every rider.</p>
             </div>
             <div class="three-of-three">
-                <div class="bike-lines"><a href="https://www.whycycles.com/" target="_blank"><img
-                            src="http://dirtyfingersbikes.com/wp-content/uploads/2016/08/transition.png"></a></div>
-                <p>Why Cycles staffed by riders from the ground floor up. They offer bikes in a variety of travels and
-                    wheel sizes with one thing in common: great handling at speed. If you need a one-bike quiver that
-                    can handle anything – 44 Road cross-country.</p>
+                <div class="bike-lines"><a href="https://www.whycycles.com/" target="_blank"><img class="why-img"
+                            src="http://localhost:8888/aloha/wp-content/uploads/2019/03/why-cycles-logo-1.png"></a></div>
+                <p>Why Cycles is a small bike company located right here in Carbondale that specializes in beautiful titanium bikes with progressive geometry that makes them ride as good as they look.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-bottom">
+        <br>
+            <div class="one-of-three">
+                <div class="bike-lines"><a href="https://www.cervelo.com/en_US/" target="_blank"><img class="cervelo-img"
+                            src="http://localhost:8888/aloha/wp-content/uploads/2019/03/cervelo.png"></a>
+                </div>
+                    <p>From the pro peleton to the Hawaii Ironman World Championships, Cervelo is the leader in road and triathlon aerodynamic bicycle technology.
+                </p>
+            </div>
+            <div class="two-of-three">
+                <div class="bike-lines"><a href="https://ninerbikes.com/" target="_blank"><img class="surly-img"
+                            src="http://localhost:8888/aloha/wp-content/uploads/2019/03/niner-logo.png"></a>
+                </div>
+                    <p>Niner Bikes started the whole twenty nine inch wheel reveolution and now make everything from full suspension and hardtail mountain bikes to carbon anf steel gravel grinders.</p>
+            </div>
+            <div class="three-of-three">
+                <div class="bike-lines"><a href="https://allcitycycles.com/" target="_blank"><img class="all-city-img"
+                            src="http://localhost:8888/aloha/wp-content/uploads/2019/03/hdr_allcity_logo.png"></a></div>
+                <p>All-City Cycles is committed to the concept of "Steel is Real"!  Their bikes are not only beautiful, but they ride like a dream.</p>
             </div>
         </div>
     </div>
 </div>
-
 <br>
-<?php get_footer(); ?>
