@@ -1,9 +1,10 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,400,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
 
-body{ background: black; font: 16px/1.6 'Oswald', sans-serif;  }
-body p{ color: #ffffff; font: 16px/1.6 'Lato', sans-serif; }
+body{ background: black; font: 16px/1.6 'Fugaz One', cursive;  }
+body p{ color: #ffffff; font: 16px/1.6 'Fugaz One', cursive; }
 h1{ color: #72b4ac; font-size: 28px; margin: 15px 0 15px; }
 h2{ color: #ffffff; font-size: 24px; margin-top: 0; }
 h3{ color: #72b4ac; font-size: 20px; margin-top: 0; }
@@ -29,18 +30,24 @@ img.cc-icon { position: relative;
 /* .hours{ } */
 
 /* Social Widgets */
-.social-media-icons ul{ padding: 0; margin: 0; }
+.social-media-icons ul{ 
+    padding: 0;
+    margin: 0;
+}
 .social-media-icons ul li{ list-style-type: none; display: inline; margin: 0 5px 0; border-radius: 5px; }
 .social-media-icons ul li:hover { background-color: #72b4ac; }
 
 /* Header - Main Menu */
 .menu-area{ background:#9A9DA0; padding: 0px 0; max-height: 200px }
-.main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }
+.main-menu ul{ list-style: none; padding: 0; margin: 0; font-size: 24px; }
 .main-menu ul li:hover{ color: #72b4ac; }
 .main-menu ul li{ display: inline;  margin: 0 30px 0 0;}
 .main-menu ul li:last-child{ margin: 0; }
 .main-menu ul li a{ text-transform: uppercase; color: #ffffff; text-decoration: none;}
 .main-menu ul li.current-menu-item a{ color:#72b4ac; }
+ul#menu-top-menu { 
+    right: -20px;
+}
 #menu-top-menu { position: relative; top: -128px; }
 
 /* Homepage logo */
@@ -128,9 +135,10 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
     min-height: 800px; 
 }
 .homepage-template p { 
-    font-size: 1.2em; 
-    color: #72b4ac; 
-    font-weight: 400; 
+    font-family: 'Fugaz One', cursive;
+    font-size: 1.5em; 
+    color: #fff;
+    font-weight: 700; 
     padding-top: 20px;
 }
 
@@ -167,11 +175,24 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 }
 
 /* Bikes Page */
-.page-id-6 .content-area .middle-area { 
-    background-image: url('http://localhost:8888/aloha/wp-content/uploads/2019/02/IMG_5599-1.jpg');
-    background-size: cover;
+.page-id-6 p { 
+   padding: 5px 3px 20px;
 }
-
+.page-id-6 .footer {
+    position: fixed;
+}
+img.surly-img {
+    max-height: 148px;
+}
+img.why-img {
+    max-height: 148px;
+}
+img.cervelo-img {
+    max-height: 100px;
+}
+img.all-city-img {
+    max-height: 75px;
+}
 .bike-brands { 
     padding-top: 60px;
 }
@@ -210,6 +231,11 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
     width: 33.33%;
 }
 
+.container-top {
+    display: table;
+    width: 100%;
+}
+
 /* Staff Page */
 .page-id-12 h2 {
     color: #72b4ac;
@@ -246,5 +272,5 @@ footer{ background: rgb(3, 3, 3); padding: 15px 0; color: #ffffff; }
 .contact-img {
     float: right;
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
 }
