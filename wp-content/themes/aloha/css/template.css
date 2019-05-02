@@ -51,6 +51,10 @@ img.cc-icon {
     bottom: 25px;
 }
 
+.phone {
+    text-decoration: none;
+}
+
 /* Social Widgets */
 .social-media-icons ul{ 
     padding: 0;

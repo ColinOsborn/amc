@@ -19,7 +19,7 @@
                         }
                         ?>
                     </div>
-                    <div class="hours col-xl-12 col-md-12 col-sm-12 col-8 text-right">Open MON-FRI 10am - 7pm | SAT 9am - 5pm | SUN 10am - 5am | 970-963-2500</div>
+                    <div class="hours col-xl-12 col-md-12 col-sm-12 col-8 text-right">Open MON-FRI 10am - 7pm | SAT 9am - 5pm | SUN 10am - 5am | <a class="phone" href="tel:+19709632500">970-963-2500</a></div>
                 </div>
             </div>
         </section>
